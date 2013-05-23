@@ -24,7 +24,7 @@ Pull from github - http://github.com/jeffbski/react-q
 ## Example
 
 ```javascript
-var react = require('react-q'); // enable Q promise integration, return react
+var react = require('react-q'); // enable Q-style promise integration, return react
 // react.logEvents(); // to enable logging to stderr of flow and task events
 
 function loadData(x, y, cb) {
