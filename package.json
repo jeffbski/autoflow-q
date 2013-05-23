@@ -1,0 +1,33 @@
+{
+  "name": "react-q",
+  "version": "0.7.0",
+  "description": "react-q is a plugin for react, the flow control rules engine, which adds integration with Q-style Deferred promises https://github.com/kriskowal/q ",
+  "main": "lib/react-q",
+  "author": "Jeff Barczewski <jeff.barczewski@gmail.com>",
+  "repository": { "type": "git", "url": "http://github.com/jeffbski/react-q.git" },
+  "bugs" : { "url": "http://github.com/jeffbski/react-q/issues" },
+  "licenses": [{ "type": "MIT", "url" : "http://github.com/jeffbski/react-q/raw/master/LICENSE" }],
+  "engines": { "node": ">=0.6" },
+  "dependencies": {
+    "react": "~0.7.0",
+    "q": "~0.9.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "chai": "~1.6.0"
+  },
+  "keywords": [
+    "Q",
+    "deferred",
+    "promise",
+    "flow",
+    "flow control",
+    "control flow",
+    "dataflow",
+    "reactive",
+    "async"
+  ],
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/*.mocha.js"
+  }
+}
