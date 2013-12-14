@@ -1,10 +1,10 @@
 # autoflow-q
 
-[![Build Status](https://secure.travis-ci.org/jeffbski/autoflow-q.png?branch=master)](http://travis-ci.org/jeffbski/react-q)
+[![Build Status](https://secure.travis-ci.org/jeffbski/autoflow-q.png?branch=master)](http://travis-ci.org/jeffbski/autoflow-q)
 
 react-q is a plugin for autoflow, the flow control rules engine, which adds integration with jQuery-style Deferred promises
 
-For more information on `autoflow` the lightweight flow control rules engine:  http://github.com/jeffbski/react
+For more information on `autoflow` the lightweight flow control rules engine:  http://github.com/jeffbski/autoflow
 
 ## Goals
 
