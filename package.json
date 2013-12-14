@@ -1,15 +1,15 @@
 {
-  "name": "react-q",
+  "name": "autoflow-q",
   "version": "0.7.0",
-  "description": "react-q is a plugin for react, the flow control rules engine, which adds integration with Q-style Deferred promises https://github.com/kriskowal/q ",
-  "main": "lib/react-q",
+  "description": "autoflow-q is a plugin for autoflow, the flow control rules engine, which adds integration with Q-style Deferred promises https://github.com/kriskowal/q ",
+  "main": "lib/autoflow-q",
   "author": "Jeff Barczewski <jeff.barczewski@gmail.com>",
-  "repository": { "type": "git", "url": "http://github.com/jeffbski/react-q.git" },
-  "bugs" : { "url": "http://github.com/jeffbski/react-q/issues" },
-  "licenses": [{ "type": "MIT", "url" : "http://github.com/jeffbski/react-q/raw/master/LICENSE" }],
+  "repository": { "type": "git", "url": "http://github.com/jeffbski/autoflow-q.git" },
+  "bugs" : { "url": "http://github.com/jeffbski/autoflow-q/issues" },
+  "licenses": [{ "type": "MIT", "url" : "http://github.com/jeffbski/autoflow-q/raw/master/LICENSE" }],
   "engines": { "node": ">=0.6" },
   "dependencies": {
-    "react": "~0.7.0",
+    "autoflow": "~0.7.0",
     "q": "~0.9.4"
   },
   "devDependencies": {

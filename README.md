@@ -1,30 +1,30 @@
-# react-q
+# autoflow-q
 
-[![Build Status](https://secure.travis-ci.org/jeffbski/react-q.png?branch=master)](http://travis-ci.org/jeffbski/react-q)
+[![Build Status](https://secure.travis-ci.org/jeffbski/autoflow-q.png?branch=master)](http://travis-ci.org/jeffbski/react-q)
 
-react-q is a plugin for react, the flow control rules engine, which adds integration with jQuery-style Deferred promises
+react-q is a plugin for autoflow, the flow control rules engine, which adds integration with jQuery-style Deferred promises
 
-For more information on `react` the lightweight flow control rules engine:  http://github.com/jeffbski/react
+For more information on `autoflow` the lightweight flow control rules engine:  http://github.com/jeffbski/react
 
 ## Goals
 
- - make it easy to use React defined functions, promise style and in this case with promises that are compatible with Q promises https://github.com/kriskowal/q
- - if a react defined flow function is called without a callback, then a Q promise is returned
+ - make it easy to use autoflow defined functions, promise style and in this case with promises that are compatible with Q promises https://github.com/kriskowal/q
+ - If A autoflow defined flow function is called without a callback, then a Q promise is returned
  - if promises are passed in as input parameters, they will automatically be resolved before tasks are called
 
 ## Installing
 
-    npm install react-q
+    npm install autoflow-q
 
 OR
 
-Pull from github - http://github.com/jeffbski/react-q
+Pull from github - http://github.com/jeffbski/autoflow-q
 
 
 ## Example
 
 ```javascript
-var react = require('react-q'); // enable Q-style promise integration, return react
+var autoflow = require('react-q'); // enable Q-style promise integration, return react
 // react.logEvents(); // to enable logging to stderr of flow and task events
 
 function loadData(x, y, cb) {
@@ -44,7 +44,7 @@ function render(user, data) {
 }
 
 
-var fn = react('myflow', 'a, b, uid, cb -> err, renderedOut',
+var fn = autoflow('myflow', 'a, b, uid, cb -> err, renderedOut',
   loadData, 'a, b, cb -> err, c',
   loadUser, 'uid, cb -> err, user',
   render, 'user, c -> renderedOut'
@@ -60,7 +60,7 @@ promise.then(function (renderedOut) {
 
 ## License
 
- - [MIT license](http://github.com/jeffbski/react-q/raw/master/LICENSE)
+ - [MIT license](http://github.com/jeffbski/autoflow-q/raw/master/LICENSE)
 
 ## Contributors
 
@@ -68,7 +68,7 @@ promise.then(function (renderedOut) {
 
 ## Contributing
 
- - Source code repository: http://github.com/jeffbski/react-q
- - Ideas and pull requests are encouraged  - http://github.com/jeffbski/react-q/issues
+ - Source code repository: http://github.com/jeffbski/autoflow-q
+ - Ideas and pull requests are encouraged  - http://github.com/jeffbski/autoflow-q/issues
 
 - You may contact me at @jeffbski or through github at http://github.com/jeffbski
